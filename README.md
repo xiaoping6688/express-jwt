@@ -7,7 +7,7 @@ This module provides Express middleware for validating JWTs ([JSON Web Tokens](h
 ## Install
 
 ```
-$ npm install express-jwt
+$ npm install expressjwt
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ $ npm install express-jwt
 Basic usage using an HS256 secret:
 
 ```javascript
-var jwt = require('express-jwt');
+var jwt = require('expressjwt');
 
 app.get('/protected',
   jwt({ secret: 'shhhhhhared-secret' }),
